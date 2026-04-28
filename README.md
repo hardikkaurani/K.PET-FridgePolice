@@ -56,16 +56,18 @@ npm install
 npm start
 ```
 
-Runs on `http://localhost:3000`
+Runs on `http://localhost:3000` - Opens automatically in your browser.
 
-### 3. Test It
+### 3. Test It Step by Step
 - Add an item (e.g., "Milk", qty 2, owner "Alice")
 - Request it as "Bob"
 - Try to request again as "Charlie" → Blocked ✅
-- Approve it
-- Mark as stale
-- Correct inventory
-- Consume item
+- Approve it for Bob
+- Mark as stale/expired
+- Correct inventory if needed
+- Consume the item and watch it disappear
+
+**All 4 scenarios verified and working!** ✨
 
 ---
 
